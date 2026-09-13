@@ -1,47 +1,74 @@
+<!-- Code Attribution: -->
+<!-- Title: HTML Document Structure -->
+<!-- Author: W3Schools -->
+<!-- Date: 13 September 2026 -->
+<!-- Version: 1 -->
+<!-- Availability: https://www.w3schools.com/html/html_intro.asp -->
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
 
-    <!-- character encoding so special characters display properly -->
+    <!-- set page text encoding -->
     <meta charset="UTF-8">
-    <!-- makes the page responsive on phones/tablets -->
+    
+    <!-- set scaling for mobile displays -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- title shown in the browser tab -->
+    <!-- title text for browser tab -->
     <title>Contact | Swikaar Samlall</title>
 
-    <!-- meta description for search engines -->
+    <!-- search engine page description -->
     <meta name="description"
         content="Contact Swikaar Samlall, an aspiring Software Developer and Information Technology student.">
 
-    <!-- external stylesheet -->
+    <!-- Code Attribution: -->
+    <!-- Title: HTML External Stylesheets -->
+    <!-- Author: W3Schools -->
+    <!-- Date: 13 September 2026 -->
+    <!-- Version: 1 -->
+    <!-- Availability: https://www.w3schools.com/html/html_css.asp -->
+
+    <!-- link to external stylesheet -->
     <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
 
-    <!-- Navigation -->
+    <!-- Code Attribution: -->
+    <!-- Title: HTML Navigation Bar -->
+    <!-- Author: W3Schools -->
+    <!-- Date: 13 September 2026 -->
+    <!-- Version: 1 -->
+    <!-- Availability: https://www.w3schools.com/howto/howto_css_topnav.asp -->
 
+    <!-- site header element -->
     <header>
 
+        <!-- top level navigation bar -->
         <nav>
 
-            <!-- site name/logo text -->
+            <!-- site title text -->
             <h2 class="logo">My Portfolio</h2>
 
-            <!-- nav links, contact is active on this page -->
+            <!-- links to portfolio pages -->
             <ul>
 
+                <!-- home page link -->
                 <li><a href="index.html">Home</a></li>
 
+                <!-- about page link -->
                 <li><a href="about.html">About</a></li>
 
+                <!-- projects page link -->
                 <li><a href="projects.html">Projects</a></li>
 
+                <!-- reflection page link -->
                 <li><a href="reflection.html">Reflection</a></li>
 
+                <!-- active page contact link -->
                 <li><a href="contact.html" class="active">Contact</a></li>
 
             </ul>
@@ -50,33 +77,39 @@
 
     </header>
 
-    <!-- Page Header -->
-
+    <!-- page heading banner -->
     <section class="page-header">
 
-        <!-- main title for this page -->
+        <!-- contact page heading -->
         <h1>Contact Me</h1>
 
-        <!-- short intro line -->
+        <!-- intro message to visitors -->
         <p>
             Thank you for visiting my portfolio. Feel free to contact me using the details below.
         </p>
 
     </section>
 
-    <!-- Contact Information -->
+    <!-- Code Attribution: -->
+    <!-- Title: How To Create a Contact Section / Layout -->
+    <!-- Author: W3Schools -->
+    <!-- Date: 13 September 2026 -->
+    <!-- Version: 1 -->
+    <!-- Availability: https://www.w3schools.com/howto/howto_css_contact_section.asp -->
 
+    <!-- wrapper section for contact details and form -->
     <section class="contact-container">
 
-        <!-- left side: my contact details -->
+        <!-- direct personal contact details block -->
         <div class="contact-info">
 
+            <!-- section sub-heading -->
             <h2>Contact Information</h2>
 
-            <!-- email address -->
+            <!-- email details line -->
             <p><strong>Email:</strong> s.swikaarsamlall@gmail.com</p>
 
-            <!-- link to my github profile -->
+            <!-- github profile link -->
             <p>
                 <strong>GitHub:</strong>
                 <a href="https://github.com/Swikaar25" target="_blank" rel="noopener noreferrer">
@@ -84,7 +117,7 @@
                 </a>
             </p>
 
-            <!-- link to my linkedin profile -->
+            <!-- linkedin profile link -->
             <p>
                 <strong>LinkedIn:</strong>
                 <a href="https://www.linkedin.com/in/swikaar-samlall-3b0858427/" target="_blank" rel="noopener noreferrer">
@@ -94,50 +127,62 @@
 
         </div>
 
-        <!-- Contact Form -->
+        <!-- Code Attribution: -->
+        <!-- Title: HTML Forms -->
+        <!-- Author: W3Schools -->
+        <!-- Date: 13 September 2026 -->
+        <!-- Version: 1 -->
+        <!-- Availability: https://www.w3schools.com/html/html_forms.asp -->
 
+        <!-- interactive form element block -->
         <div class="contact-form">
 
+            <!-- form heading -->
             <h2>Send a Message</h2>
 
+            <!-- form submission container -->
             <form>
 
-                <!-- name field -->
+                <!-- input label name -->
                 <label for="name">Full Name</label>
 
+                <!-- user name text box -->
                 <input
                     type="text"
                     id="name"
                     placeholder="Enter your full name"
                     required>
 
-                <!-- email field -->
+                <!-- input label email -->
                 <label for="email">Email Address</label>
 
+                <!-- user email text box -->
                 <input
                     type="email"
                     id="email"
                     placeholder="Enter your email"
                     required>
 
-                <!-- subject field, not required -->
+                <!-- input label subject -->
                 <label for="subject">Subject</label>
 
+                <!-- optional subject input box -->
                 <input
                     type="text"
                     id="subject"
                     placeholder="Subject">
 
-                <!-- message textarea -->
+                <!-- input label message body -->
                 <label for="message">Message</label>
 
+                <!-- main message area input -->
                 <textarea
                     id="message"
                     rows="6"
                     placeholder="Write your message here..."
                     required></textarea>
 
-                <!-- submit button for the form -->
+                <!-- submit action button -->
                 <button type="submit" class="button">
 
                     Send Message
@@ -150,11 +195,17 @@
 
     </section>
 
-    <!-- Footer -->
+    <!-- Code Attribution: -->
+    <!-- Title: HTML Semantic Elements -->
+    <!-- Author: W3Schools -->
+    <!-- Date: 13 September 2026 -->
+    <!-- Version: 1 -->
+    <!-- Availability: https://www.w3schools.com/html/html5_semantic_elements.asp -->
 
+    <!-- footer wrapper -->
     <footer>
 
-        <!-- copyright text -->
+        <!-- portfolio copyright info -->
         <p>
 
             © 2026 Swikaar Samlall | Professional IT Portfolio
@@ -163,7 +214,7 @@
 
     </footer>
 
-    <!-- link to my js file for the skill dropdowns -->
+    <!-- import script file -->
     <script src="js/script.js"></script>
 
 </body>

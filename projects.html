@@ -1,3 +1,10 @@
+<!-- Code Attribution: -->
+<!-- Title: HTML Document Structure -->
+<!-- Author: W3Schools -->
+<!-- Date: 13 September 2026 -->
+<!-- Version: 1 -->
+<!-- Availability: https://www.w3schools.com/html/html_intro.asp -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,6 +12,7 @@
 
     <!-- character encoding so special characters display properly -->
     <meta charset="UTF-8">
+
     <!-- makes the page responsive on phones/tablets -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -15,6 +23,13 @@
     <meta name="description"
         content="View programming and web development projects completed by Swikaar Samlall.">
 
+    <!-- Code Attribution: -->
+    <!-- Title: HTML External Stylesheets -->
+    <!-- Author: W3Schools -->
+    <!-- Date: 13 September 2026 -->
+    <!-- Version: 1 -->
+    <!-- Availability: https://www.w3schools.com/html/html_css.asp -->
+
     <!-- external stylesheet -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -22,26 +37,38 @@
 
 <body>
 
-    <!-- Navigation -->
+    <!-- Code Attribution: -->
+    <!-- Title: HTML Navigation Bar -->
+    <!-- Author: W3Schools -->
+    <!-- Date: 13 September 2026 -->
+    <!-- Version: 1 -->
+    <!-- Availability: https://www.w3schools.com/howto/howto_css_topnav.asp -->
 
+    <!-- navigation bar header -->
     <header>
 
+        <!-- main navbar element -->
         <nav>
 
-            <!-- site name/logo text -->
+            <!-- site title logo -->
             <h2 class="logo">My Portfolio</h2>
 
-            <!-- nav links, projects is active on this page -->
+            <!-- active link set to projects page -->
             <ul>
 
+                <!-- link home -->
                 <li><a href="index.html">Home</a></li>
 
+                <!-- link about -->
                 <li><a href="about.html">About</a></li>
 
+                <!-- current page active link -->
                 <li><a href="projects.html" class="active">Projects</a></li>
 
+                <!-- link reflection -->
                 <li><a href="reflection.html">Reflection</a></li>
 
+                <!-- link contact -->
                 <li><a href="contact.html">Contact</a></li>
 
             </ul>
@@ -50,14 +77,13 @@
 
     </header>
 
-    <!-- Page Heading -->
-
+    <!-- top hero banner for projects -->
     <section class="page-header">
 
-        <!-- main title for this page -->
+        <!-- main page heading -->
         <h1>My Projects</h1>
 
-        <!-- short intro line explaining this page -->
+        <!-- intro sentence for page context -->
         <p>
             These projects demonstrate the practical skills I have developed during my
             Information Technology studies.
@@ -65,22 +91,27 @@
 
     </section>
 
-    <!-- Projects -->
+    <!-- Code Attribution: -->
+    <!-- Title: How To Create a Portfolio Gallery Grid -->
+    <!-- Author: W3Schools -->
+    <!-- Date: 13 September 2026 -->
+    <!-- Version: 1 -->
+    <!-- Availability: https://www.w3schools.com/howto/howto_css_portfolio_gallery.asp -->
 
+    <!-- section holding all portfolio projects -->
     <section class="projects">
 
-        <!-- Project 1 -->
-
+        <!-- freshcafe project card container -->
         <div class="project-card">
 
-            <!-- screenshot of the app -->
+            <!-- cafe app screenshot preview -->
             <img src="_image/freah cafe .png"
                 alt="Screenshot of the FreshCafe Mobile Application">
 
-            <!-- project title -->
+            <!-- title of first project -->
             <h2>FreshCafe Mobile App</h2>
 
-            <!-- description of what the project does -->
+            <!-- description of mobile app functionality -->
             <p>
 
                 The FreshCafe Mobile App was developed as part of a Mobile Application
@@ -89,22 +120,27 @@
 
             </p>
 
-            <!-- list of tech/tools used for this project -->
+            <!-- tech stack list header -->
             <h3>Technologies Used</h3>
 
+            <!-- bullet list of tech used -->
             <ul>
 
+                <!-- java language -->
                 <li>Java</li>
 
+                <!-- VS IDE -->
                 <li>visual Studio</li>
 
+                <!-- expo build tool -->
                 <li>Expo Go</li>
 
+                <!-- source control -->
                 <li>GitHub</li>
 
             </ul>
 
-            <!-- link to the github repo, opens in a new tab -->
+            <!-- external link button to repository -->
             <a href="https://github.com/VCDN-2025/mast5112-poe-Swikaar25.git"
                 target="_blank"
                 class="button">
@@ -115,18 +151,17 @@
 
         </div>
 
-        <!-- Project 2 -->
-
+        <!-- bakery project card container -->
         <div class="project-card">
 
-            <!-- screenshot of the website -->
+            <!-- bakery site screenshot -->
             <img src="_image/bakery.png"
                 alt="Screenshot of Sweet Moments Bakery Website">
 
-            <!-- project title -->
+            <!-- bakery project title -->
             <h2>Sweet Moments Bakery Website</h2>
 
-            <!-- description of what the project does -->
+            <!-- summary of website functionality -->
             <p>
 
                 A responsive bakery website created using HTML, CSS and JavaScript.
@@ -135,22 +170,27 @@
 
             </p>
 
-            <!-- list of tech/tools used for this project -->
+            <!-- tech list heading -->
             <h3>Technologies Used</h3>
 
+            <!-- bullet list of technologies -->
             <ul>
 
+                <!-- html structure -->
                 <li>HTML</li>
 
+                <!-- css styling -->
                 <li>CSS</li>
 
+                <!-- js logic -->
                 <li>JavaScript</li>
 
+                <!-- version tracking -->
                 <li>GitHub</li>
 
             </ul>
 
-            <!-- link to the github repo, opens in a new tab -->
+            <!-- external github link button -->
             <a href="https://github.com/VCDN-2025/wede5020-poe-Swikaar25.git"
                 target="_blank"
                 class="button">
@@ -161,41 +201,43 @@
 
         </div>
 
-        <!-- Project 3 -->
-
+        <!-- food choices app card container -->
         <div class="project-card">
 
-            <!-- screenshot of the app -->
+            <!-- app preview image -->
             <img src="_image/food choices.png"
-                alt="Screenshot of Weather Application">
+               alt="Screenshot of the Food Choices mobile application">
 
-            <!-- project title -->
+            <!-- project heading -->
             <h2>Food Choices</h2>
 
-            <!-- description of what the project does -->
+            <!-- details on kotlin food picker app -->
             <p>
 
              The Food Choices app helps users decide what to eat at different times of the day.
              Users simply enter a time of day, such as morning, afternoon, evening, or dessert,
              and the app provides a suitable food suggestion. The app is designed to make choosing meals and snacks easier and reduce the stress of deciding what to eat. It also includes Enter and Reset buttons, making the application simple and easy to use.
-.
 
             </p>
 
-            <!-- list of tech/tools used for this project -->
+            <!-- tools list header -->
             <h3>Technologies Used</h3>
 
+            <!-- bulleted tools -->
             <ul>
 
+                <!-- language used -->
                 <li>Kotlin</li>
 
+                <!-- IDE used -->
                 <li>Android Studio</li>
 
+                <!-- source control -->
                 <li>GitHub</li>
 
             </ul>
 
-            <!-- link to the github repo, opens in a new tab -->
+            <!-- external repository button link -->
             <a href="https://github.com/VCDN-2025/imad5112-assignment-1-Swikaar25.git"
                 target="_blank"
                 class="button">
@@ -208,40 +250,55 @@
 
     </section>
 
-    <!-- Skills Learned -->
+    <!-- Code Attribution: -->
+    <!-- Title: How To Create a Card Layout -->
+    <!-- Author: W3Schools -->
+    <!-- Date: 13 September 2026 -->
+    <!-- Version: 1 -->
+    <!-- Availability: https://www.w3schools.com/howto/howto_css_cards.asp -->
 
+    <!-- summary section for core competencies -->
     <section class="skills-section">
 
-        <!-- section heading -->
+        <!-- section header text -->
         <h2>Skills Demonstrated</h2>
 
-        <!-- 3 cards summing up skills used across the projects above -->
+        <!-- grid of three skill areas -->
         <div class="cards">
 
+            <!-- core programming card -->
             <div class="card">
 
+                <!-- skill sub-title -->
                 <h3>Programming</h3>
 
+                <!-- description -->
                 <p>
                     Writing Java applications and solving programming problems.
                 </p>
 
             </div>
 
+            <!-- web dev skill card -->
             <div class="card">
 
+                <!-- skill sub-title -->
                 <h3>Web Development</h3>
 
+                <!-- description -->
                 <p>
                     Building responsive websites using HTML, CSS and JavaScript.
                 </p>
 
             </div>
 
+            <!-- version control card -->
             <div class="card">
 
+                <!-- skill sub-title -->
                 <h3>Version Control</h3>
 
+                <!-- description -->
                 <p>
                     Managing projects using Git and GitHub.
                 </p>
@@ -252,11 +309,17 @@
 
     </section>
 
-    <!-- Footer -->
+    <!-- Code Attribution: -->
+    <!-- Title: HTML Semantic Elements -->
+    <!-- Author: W3Schools -->
+    <!-- Date: 13 September 2026 -->
+    <!-- Version: 1 -->
+    <!-- Availability: https://www.w3schools.com/html/html5_semantic_elements.asp -->
 
+    <!-- page footer tag -->
     <footer>
 
-        <!-- copyright text -->
+        <!-- copyright details -->
         <p>
 
             © 2026 Swikaar Samlall | Professional IT Portfolio
@@ -265,7 +328,7 @@
 
     </footer>
 
-    <!-- link to my js file for the skill dropdowns -->
+    <!-- link script JS file -->
     <script src="js/script.js"></script>
 
 </body>

@@ -1,62 +1,86 @@
+<!-- Code Attribution: -->
+<!-- Title: HTML Document Structure -->
+<!-- Author: W3Schools -->
+<!-- Date: 13 September 2026 -->
+<!-- Version: 1 -->
+<!-- Availability: https://www.w3schools.com/html/html_intro.asp -->
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
 
-    <!-- character encoding so special characters display properly -->
+    <!-- setting up character encoding for special characters -->
     <meta charset="UTF-8">
 
-    <!-- makes the page responsive on phones/tablets -->
+    <!-- makes the site scale properly on mobile screens -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- title shown in the browser tab -->
     <title>Swikaar Samlall | IT Portfolio</title>
 
-    <!-- meta description for search engines -->
+    <!-- short summary for search engine results -->
     <meta name="description"
         content="Professional portfolio of Swikaar Samlall, an Information Technology student and aspiring Software Developer.">
 
-    <!-- keywords for SEO -->
+    <!-- keywords to help search engines index the page -->
     <meta name="keywords"
         content="IT Student, Software Developer, Web Developer, Java, HTML, CSS, JavaScript, Kotlin, GitHub">
 
-    <!-- external stylesheet -->
+    <!-- Code Attribution: -->
+    <!-- Title: HTML External Stylesheets -->
+    <!-- Author: W3Schools -->
+    <!-- Date: 13 September 2026 -->
+    <!-- Version: 1 -->
+    <!-- Availability: https://www.w3schools.com/html/html_css.asp -->
+
+    <!-- link to external css file -->
     <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
 
-    <!-- ==========================
-         NAVIGATION
-    =========================== -->
+    <!-- Code Attribution: -->
+    <!-- Title: HTML Navigation Bar -->
+    <!-- Author: W3Schools -->
+    <!-- Date: 13 September 2026 -->
+    <!-- Version: 1 -->
+    <!-- Availability: https://www.w3schools.com/howto/howto_css_topnav.asp -->
 
+    <!-- header section holding main navigation -->
     <header>
 
+        <!-- navigation menu container -->
         <nav>
 
-            <!-- site name/logo text -->
+            <!-- main heading / site logo link -->
             <h2 class="logo">My Portfolio</h2>
 
-            <!-- nav links, home is active on this page -->
+            <!-- unordered list of page links -->
             <ul>
 
+                <!-- active link pointing to homepage -->
                 <li>
                     <a href="index.html" class="active">Home</a>
                 </li>
 
+                <!-- link to about page -->
                 <li>
                     <a href="about.html">About</a>
                 </li>
 
+                <!-- link to projects showcase -->
                 <li>
                     <a href="projects.html">Projects</a>
                 </li>
 
+                <!-- link to reflection page -->
                 <li>
                     <a href="reflection.html">Reflection</a>
                 </li>
 
+                <!-- link to contact form page -->
                 <li>
                     <a href="contact.html">Contact</a>
                 </li>
@@ -68,47 +92,52 @@
     </header>
 
 
-    <!-- ==========================
-         HERO SECTION
-    =========================== -->
+    <!-- Code Attribution: -->
+    <!-- Title: How To Create a Hero Image / Section -->
+    <!-- Author: W3Schools -->
+    <!-- Date: 13 September 2026 -->
+    <!-- Version: 1 -->
+    <!-- Availability: https://www.w3schools.com/howto/howto_css_hero_image.asp -->
 
+    <!-- main hero banner introducing the site owner -->
     <section class="hero">
 
-        <!-- left side text content -->
+        <!-- container for text intro -->
         <div class="hero-text">
 
-            <!-- main heading with my name -->
+            <!-- main introduction greeting -->
             <h1>
                 Hello, I'm
                 <span>Swikaar Samlall</span>
             </h1>
 
-            <!-- subheading / tagline -->
+            <!-- secondary title header -->
             <h2>
                 Aspiring Software Developer
             </h2>
 
-            <!-- short intro paragraph about me -->
+            <!-- introduction paragraph about background and skills -->
             <p>
 
-                I am an Information Technology student with a passion for
-                software development, web development and mobile application
-                development. I enjoy learning new programming languages and
-                creating practical projects that help me improve my technical
-                and problem-solving skills. Throughout my studies, I have
-                worked with HTML, CSS, JavaScript, Java, Kotlin and GitHub.
-                My goal is to become a professional Software Developer who
-                creates reliable, user-friendly and useful applications that
-                solve real-world problems.
+           I am an Information Technology student with a strong interest in software development,
+           web development and mobile application development. I enjoy learning new programming languages and 
+           using technology to create practical solutions to real-world problems. Throughout my studies, I have 
+           gained experience with HTML, CSS, JavaScript, Java, Kotlin, Git and GitHub. Working on academic 
+           projects has helped me develop my programming, problem-solving and project management skills 
+           while also improving my confidence in working independently. I am particularly interested in 
+           developing user-friendly applications and responsive websites. My career goal is to become a 
+           professional Software Developer and continue expanding my technical knowledge. I am motivated
+            to keep learning, take on new challenges and build useful digital solutions as I progress in my studies
+             and career.
 
             </p>
 
-            <!-- button that takes you to the projects page -->
+            <!-- action link button to projects page -->
             <a href="projects.html" class="button">
                 View My Projects
             </a>
 
-            <!-- button that takes you to the contact page -->
+            <!-- action link button to contact page -->
             <a href="contact.html" class="button">
                 Contact Me
             </a>
@@ -116,11 +145,10 @@
         </div>
 
 
-        <!-- right side image -->
+        <!-- container for portfolio profile picture -->
         <div class="hero-image">
 
-            <!-- Profile Image -->
-
+            <!-- profile headshot image -->
             <img
                 src="_image/profile.png"
                 alt="Professional photograph of Swikaar Samlall">
@@ -130,23 +158,29 @@
     </section>
 
 
-    <!-- ==========================
-         CAREER INTERESTS
-    =========================== -->
+    <!-- Code Attribution: -->
+    <!-- Title: How To Create a Card Layout -->
+    <!-- Author: W3Schools -->
+    <!-- Date: 13 September 2026 -->
+    <!-- Version: 1 -->
+    <!-- Availability: https://www.w3schools.com/howto/howto_css_cards.asp -->
 
+    <!-- section presenting primary career interests -->
     <section class="career">
 
-        <!-- section heading -->
+        <!-- career section heading -->
         <h2>Career Interests</h2>
 
-        <!-- 3 cards showing the areas i want to work in -->
+        <!-- grid wrapper for interest cards -->
         <div class="cards">
 
-            <!-- card 1: software dev -->
+            <!-- first interest card -->
             <div class="card">
 
+                <!-- card topic heading -->
                 <h3>Software Development</h3>
 
+                <!-- card description text -->
                 <p>
 
                     I am interested in developing software applications
@@ -158,11 +192,13 @@
             </div>
 
 
-            <!-- card 2: web dev -->
+            <!-- second interest card -->
             <div class="card">
 
+                <!-- card topic heading -->
                 <h3>Web Development</h3>
 
+                <!-- card description text -->
                 <p>
 
                     I enjoy creating responsive and user-friendly websites
@@ -173,11 +209,13 @@
             </div>
 
 
-            <!-- card 3: mobile dev -->
+            <!-- third interest card -->
             <div class="card">
 
+                <!-- card topic heading -->
                 <h3>Mobile Development</h3>
 
+                <!-- card description text -->
                 <p>
 
                     I am interested in creating Android applications and
@@ -192,16 +230,20 @@
     </section>
 
 
-    <!-- ==========================
-         TECHNICAL SKILLS
-    =========================== -->
+    <!-- Code Attribution: -->
+    <!-- Title: How To Create Accordions / Collapsible Sections -->
+    <!-- Author: W3Schools -->
+    <!-- Date: 13 September 2026 -->
+    <!-- Version: 1 -->
+    <!-- Availability: https://www.w3schools.com/howto/howto_js_accordion.asp -->
 
+    <!-- section highlighting technical proficiency -->
     <section class="skills">
 
-        <!-- section heading -->
+        <!-- technical skills section heading -->
         <h2>Technical Skills</h2>
 
-        <!-- instructions for the user -->
+        <!-- text prompt for user interaction -->
         <p class="skills-text">
 
             Click on a skill to view my experience and how I have used it.
@@ -209,25 +251,25 @@
         </p>
 
 
-        <!-- each skill is a button that opens up the info below it, handled in script.js -->
-
-        <!-- HTML skill box -->
+        <!-- interactive html skill block -->
         <div class="skill-box">
 
-            <!-- clicking this toggles the content below -->
+            <!-- button to trigger html details display -->
             <button class="skill-btn">
 
                 HTML
 
             </button>
 
-            <!-- hidden info that shows up when button is clicked -->
+            <!-- hidden content container for html skills -->
             <div class="skill-content">
 
+                <!-- duration of experience -->
                 <p>
                     <strong>Experience:</strong> 1.5 Years
                 </p>
 
+                <!-- description of html usage -->
                 <p>
 
                     I use HTML to create structured and responsive
@@ -241,21 +283,25 @@
         </div>
 
 
-        <!-- CSS skill box -->
+        <!-- interactive css skill block -->
         <div class="skill-box">
 
+            <!-- button to trigger css details display -->
             <button class="skill-btn">
 
                 CSS3
 
             </button>
 
+            <!-- hidden content container for css skills -->
             <div class="skill-content">
 
+                <!-- duration of experience -->
                 <p>
                     <strong>Experience:</strong> 1.5 Years
                 </p>
 
+                <!-- description of css usage -->
                 <p>
 
                     I use CSS to create responsive layouts, navigation
@@ -269,21 +315,25 @@
         </div>
 
 
-        <!-- JavaScript skill box -->
+        <!-- interactive javascript skill block -->
         <div class="skill-box">
 
+            <!-- button to trigger javascript details display -->
             <button class="skill-btn">
 
                 JavaScript
 
             </button>
 
+            <!-- hidden content container for javascript skills -->
             <div class="skill-content">
 
+                <!-- duration of experience -->
                 <p>
                     <strong>Experience:</strong> 1.5 Years
                 </p>
 
+                <!-- description of javascript usage -->
                 <p>
 
                     I use JavaScript to make websites interactive.
@@ -297,21 +347,25 @@
         </div>
 
 
-        <!-- Java skill box -->
+        <!-- interactive java skill block -->
         <div class="skill-box">
 
+            <!-- button to trigger java details display -->
             <button class="skill-btn">
 
                 Java
 
             </button>
 
+            <!-- hidden content container for java skills -->
             <div class="skill-content">
 
+                <!-- duration of experience -->
                 <p>
                     <strong>Experience:</strong> 1 Year
                 </p>
 
+                <!-- description of java usage -->
                 <p>
 
                     I have developed Java applications as part of my
@@ -326,21 +380,25 @@
         </div>
 
 
-        <!-- Kotlin skill box -->
+        <!-- interactive kotlin skill block -->
         <div class="skill-box">
 
+            <!-- button to trigger kotlin details display -->
             <button class="skill-btn">
 
                 Kotlin
 
             </button>
 
+            <!-- hidden content container for kotlin skills -->
             <div class="skill-content">
 
+                <!-- duration of experience -->
                 <p>
                     <strong>Experience:</strong> 1 Year
                 </p>
 
+                <!-- description of kotlin usage -->
                 <p>
 
                     I use Kotlin to develop Android mobile applications.
@@ -354,21 +412,25 @@
         </div>
 
 
-        <!-- Git & GitHub skill box -->
+        <!-- interactive git skill block -->
         <div class="skill-box">
 
+            <!-- button to trigger git/github details display -->
             <button class="skill-btn">
 
                 Git & GitHub
 
             </button>
 
+            <!-- hidden content container for git/github skills -->
             <div class="skill-content">
 
+                <!-- duration of experience -->
                 <p>
                     <strong>Experience:</strong> 1.5 Years
                 </p>
 
+                <!-- description of git/github usage -->
                 <p>
 
                     I use Git and GitHub to store projects, manage
@@ -384,16 +446,13 @@
     </section>
 
 
-    <!-- ==========================
-         QUICK INTRODUCTION
-    =========================== -->
-
+    <!-- section outlining primary professional goals -->
     <section class="career-goals">
 
-        <!-- section heading -->
+        <!-- career goals section heading -->
         <h2>My Goal</h2>
 
-        <!-- short paragraph about my future goals -->
+        <!-- summary of short and long term objectives -->
         <p>
 
             My goal is to continue developing my technical skills and
@@ -407,13 +466,17 @@
     </section>
 
 
-    <!-- ==========================
-         FOOTER
-    =========================== -->
+    <!-- Code Attribution: -->
+    <!-- Title: HTML Semantic Elements -->
+    <!-- Author: W3Schools -->
+    <!-- Date: 13 September 2026 -->
+    <!-- Version: 1 -->
+    <!-- Availability: https://www.w3schools.com/html/html5_semantic_elements.asp -->
 
+    <!-- footer element for page footer -->
     <footer>
 
-        <!-- copyright text -->
+        <!-- copyright details and ownership info -->
         <p>
 
             © 2026 Swikaar Samlall | Professional IT Portfolio
@@ -423,7 +486,7 @@
     </footer>
 
 
-    <!-- link to my js file for the skill dropdowns -->
+    <!-- link to javascript file handling interactivity -->
     <script src="js/script.js"></script>
 
 </body>

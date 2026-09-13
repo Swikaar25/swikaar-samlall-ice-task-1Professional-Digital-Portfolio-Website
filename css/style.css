@@ -1,23 +1,33 @@
-/* ============================================
-   PROFESSIONAL PORTFOLIO
-   Author: Swikaar Samlall
-============================================= */
+/* Code Attribution: */
+/* Title: CSS Fonts */
+/* Author: W3Schools */
+/* Date: 13 September 2026 */
+/* Version: 1 */
+/* Availability: https://www.w3schools.com/css/css_font.asp */
 
-/* Google Font */
+/* importing google poppins font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
-/* Reset */
+/* Code Attribution: */
+/* Title: CSS Reset & Box Sizing */
+/* Author: W3Schools */
+/* Date: 13 September 2026 */
+/* Version: 1 */
+/* Availability: https://www.w3schools.com/css/css_box_sizing.asp */
 
+/* zero out margins and paddings globally */
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
 }
 
+/* smooth scrolling for anchor links */
 html{
     scroll-behavior:smooth;
 }
 
+/* base body font, background color and typography settings */
 body{
 
     font-family:'Poppins',sans-serif;
@@ -30,10 +40,14 @@ body{
 
 }
 
-/* =============================
-        Navigation
-============================= */
+/* Code Attribution: */
+/* Title: How To Create a Sticky Header / Navigation Bar */
+/* Author: W3Schools */
+/* Date: 13 September 2026 */
+/* Version: 1 */
+/* Availability: https://www.w3schools.com/howto/howto_js_navbar_sticky.asp */
 
+/* header wrapper pinned to top */
 header{
 
     position:sticky;
@@ -48,6 +62,7 @@ header{
 
 }
 
+/* main navigation container layout */
 nav{
 
     max-width:1200px;
@@ -64,6 +79,7 @@ nav{
 
 }
 
+/* logo title styling */
 .logo{
 
     font-size:30px;
@@ -74,6 +90,7 @@ nav{
 
 }
 
+/* horizontal menu list */
 nav ul{
 
     display:flex;
@@ -82,12 +99,14 @@ nav ul{
 
 }
 
+/* spacing between navigation links */
 nav ul li{
 
     margin-left:30px;
 
 }
 
+/* navigation link text styling */
 nav ul li a{
 
     text-decoration:none;
@@ -102,12 +121,14 @@ nav ul li a{
 
 }
 
+/* navigation link hover color */
 nav ul li a:hover{
 
     color:#2563eb;
 
 }
 
+/* underline hover effect initial state */
 nav ul li a::after{
 
     content:'';
@@ -128,28 +149,35 @@ nav ul li a::after{
 
 }
 
+/* expand underline on link hover */
 nav ul li a:hover::after{
 
     width:100%;
 
 }
 
+/* active link state highlight */
 .active{
 
     color:#2563eb;
 
 }
 
+/* keep underline full on active link */
 .active::after{
 
     width:100%;
 
 }
 
-/* =============================
-        HERO
-============================= */
+/* Code Attribution: */
+/* Title: How To Create a Hero Image / Section */
+/* Author: W3Schools */
+/* Date: 13 September 2026 */
+/* Version: 1 */
+/* Availability: https://www.w3schools.com/howto/howto_css_hero_image.asp */
 
+/* hero banner layout container */
 .hero{
 
     min-height:90vh;
@@ -168,12 +196,14 @@ nav ul li a:hover::after{
 
 }
 
+/* left column text wrapper */
 .hero-text{
 
     flex:1;
 
 }
 
+/* hero title sizing */
 .hero-text h1{
 
     font-size:60px;
@@ -186,12 +216,14 @@ nav ul li a:hover::after{
 
 }
 
+/* brand color text accent */
 .hero-text span{
 
     color:#2563eb;
 
 }
 
+/* hero intro paragraph */
 .hero-text p{
 
     font-size:18px;
@@ -202,6 +234,7 @@ nav ul li a:hover::after{
 
 }
 
+/* right column image container */
 .hero-image{
 
     flex:1;
@@ -210,6 +243,7 @@ nav ul li a:hover::after{
 
 }
 
+/* circular hero profile photo styling */
 .hero-image img{
 
     width:380px;
@@ -226,10 +260,14 @@ nav ul li a:hover::after{
 
 }
 
-/* =============================
-        Buttons
-============================= */
+/* Code Attribution: */
+/* Title: How To Create Call to Action Buttons */
+/* Author: W3Schools */
+/* Date: 13 September 2026 */
+/* Version: 1 */
+/* Availability: https://www.w3schools.com/css/css3_buttons.asp */
 
+/* rounded pill button base styles */
 .button{
 
     display:inline-block;
@@ -250,6 +288,7 @@ nav ul li a:hover::after{
 
 }
 
+/* button hover lift and glow effect */
 .button:hover{
 
     background:#1d4ed8;
@@ -260,10 +299,14 @@ nav ul li a:hover::after{
 
 }
 
-/* =============================
-      Page Headers
-============================= */
+/* Code Attribution: */
+/* Title: CSS Gradients */
+/* Author: W3Schools */
+/* Date: 13 September 2026 */
+/* Version: 1 */
+/* Availability: https://www.w3schools.com/css/css3_gradients.asp */
 
+/* header banner background gradient */
 .page-header{
 
     background:linear-gradient(135deg,#2563eb,#38bdf8);
@@ -276,6 +319,7 @@ nav ul li a:hover::after{
 
 }
 
+/* banner main header text */
 .page-header h1{
 
     font-size:48px;
@@ -284,22 +328,21 @@ nav ul li a:hover::after{
 
 }
 
+/* banner subtitle text */
 .page-header p{
 
     font-size:18px;
 
 }
 
-/* =============================
-        Sections
-============================= */
-
+/* general section spacing */
 section{
 
     padding:80px 10%;
 
 }
 
+/* section main headings */
 section h2{
 
     text-align:center;
@@ -312,10 +355,14 @@ section h2{
 
 }
 
-/* =============================
-       Cards
-============================= */
+/* Code Attribution: */
+/* Title: How To Create a Card Layout */
+/* Author: W3Schools */
+/* Date: 13 September 2026 */
+/* Version: 1 */
+/* Availability: https://www.w3schools.com/howto/howto_css_cards.asp */
 
+/* responsive card grid wrapper */
 .cards{
 
     display:grid;
@@ -326,6 +373,7 @@ section h2{
 
 }
 
+/* individual card styling */
 .card{
 
     background:white;
@@ -340,6 +388,7 @@ section h2{
 
 }
 
+/* card hover animation lift */
 .card:hover{
 
     transform:translateY(-10px);
@@ -348,6 +397,7 @@ section h2{
 
 }
 
+/* card title text color */
 .card h3{
 
     color:#2563eb;
@@ -358,16 +408,14 @@ section h2{
 
 }
 
+/* card body text color */
 .card p{
 
     color:#475569;
 
 }
 
-/* =============================
-       Skills
-============================= */
-
+/* skill badges flex wrapper */
 .skills ul{
 
     display:flex;
@@ -382,6 +430,7 @@ section h2{
 
 }
 
+/* skill pill tag styling */
 .skills li{
 
     background:white;
@@ -400,6 +449,7 @@ section h2{
 
 }
 
+/* skill pill hover invert background */
 .skills li:hover{
 
     background:#2563eb;
@@ -409,10 +459,15 @@ section h2{
     transform:translateY(-5px);
 
 }
-/* ============================================
-   ABOUT PAGE
-============================================= */
 
+/* Code Attribution: */
+/* Title: How To Create an About Page / Layout */
+/* Author: W3Schools */
+/* Date: 13 September 2026 */
+/* Version: 1 */
+/* Availability: https://www.w3schools.com/howto/howto_css_about_page.asp */
+
+/* about page two column layout */
 .about-container{
 
     max-width:1200px;
@@ -429,12 +484,14 @@ section h2{
 
 }
 
+/* image alignment wrapper */
 .about-image{
 
     text-align:center;
 
 }
 
+/* about page featured picture */
 .about-image img{
 
     width:100%;
@@ -449,12 +506,14 @@ section h2{
 
 }
 
+/* photo zoom on hover */
 .about-image img:hover{
 
     transform:scale(1.03);
 
 }
 
+/* about section header text */
 .about-text h2{
 
     font-size:36px;
@@ -465,6 +524,7 @@ section h2{
 
 }
 
+/* paragraph text layout */
 .about-text p{
 
     margin-bottom:20px;
@@ -475,10 +535,7 @@ section h2{
 
 }
 
-/* ============================================
-   CAREER GOALS
-============================================= */
-
+/* goals section block background */
 .career-goals{
 
     background:white;
@@ -493,6 +550,7 @@ section h2{
 
 }
 
+/* goals section body text */
 .career-goals p{
 
     text-align:center;
@@ -503,10 +561,7 @@ section h2{
 
 }
 
-/* ============================================
-   EDUCATION
-============================================= */
-
+/* education section block background */
 .education{
 
     background:white;
@@ -519,6 +574,7 @@ section h2{
 
 }
 
+/* education section text centering */
 .education p{
 
     text-align:center;
@@ -527,10 +583,7 @@ section h2{
 
 }
 
-/* ============================================
-   INTERESTS
-============================================= */
-
+/* interests section grid view */
 .interests ul{
 
     display:grid;
@@ -543,6 +596,7 @@ section h2{
 
 }
 
+/* interest item box styling */
 .interests li{
 
     background:white;
@@ -563,6 +617,7 @@ section h2{
 
 }
 
+/* interest box hover effect */
 .interests li:hover{
 
     background:#2563eb;
@@ -573,10 +628,14 @@ section h2{
 
 }
 
-/* ============================================
-   PROJECTS
-============================================= */
+/* Code Attribution: */
+/* Title: How To Create a Portfolio Gallery Grid */
+/* Author: W3Schools */
+/* Date: 13 September 2026 */
+/* Version: 1 */
+/* Availability: https://www.w3schools.com/howto/howto_css_portfolio_gallery.asp */
 
+/* grid container for projects */
 .projects{
 
     display:grid;
@@ -587,6 +646,7 @@ section h2{
 
 }
 
+/* project card layout wrapper */
 .project-card{
 
     background:white;
@@ -601,6 +661,7 @@ section h2{
 
 }
 
+/* project card hover lift state */
 .project-card:hover{
 
     transform:translateY(-12px);
@@ -609,6 +670,7 @@ section h2{
 
 }
 
+/* project preview thumbnail */
 .project-card img{
 
     width:100%;
@@ -621,12 +683,14 @@ section h2{
 
 }
 
+/* thumbnail hover zoom effect */
 .project-card:hover img{
 
     transform:scale(1.05);
 
 }
 
+/* project title text */
 .project-card h2{
 
     font-size:28px;
@@ -637,6 +701,7 @@ section h2{
 
 }
 
+/* project section subtitles */
 .project-card h3{
 
     color:#2563eb;
@@ -647,6 +712,7 @@ section h2{
 
 }
 
+/* project card description text */
 .project-card p{
 
     padding:0 25px;
@@ -655,6 +721,7 @@ section h2{
 
 }
 
+/* tech stack list spacing */
 .project-card ul{
 
     padding:15px 45px;
@@ -663,16 +730,14 @@ section h2{
 
 }
 
+/* github button placement */
 .project-card .button{
 
     margin:25px;
 
 }
 
-/* ============================================
-   REFLECTION
-============================================= */
-
+/* reflection content container */
 .reflection{
 
     background:white;
@@ -685,12 +750,14 @@ section h2{
 
 }
 
+/* reflection title heading margin */
 .reflection h2{
 
     margin-bottom:30px;
 
 }
 
+/* reflection paragraph layout */
 .reflection p{
 
     margin-bottom:25px;
@@ -701,10 +768,14 @@ section h2{
 
 }
 
-/* ============================================
-   SIMPLE FADE ANIMATION
-============================================= */
+/* Code Attribution: */
+/* Title: CSS Animations & Keyframes */
+/* Author: W3Schools */
+/* Date: 13 September 2026 */
+/* Version: 1 */
+/* Availability: https://www.w3schools.com/css/css3_animations.asp */
 
+/* keyframe animation trigger target */
 .card,
 .project-card,
 .about-image img{
@@ -713,6 +784,7 @@ section h2{
 
 }
 
+/* fade in up animation definition */
 @keyframes fadeUp{
 
     from{
@@ -733,10 +805,14 @@ section h2{
 
 }
 
-/* ============================================
-   CONTACT PAGE
-============================================= */
+/* Code Attribution: */
+/* Title: How To Create a Contact Section / Layout */
+/* Author: W3Schools */
+/* Date: 13 September 2026 */
+/* Version: 1 */
+/* Availability: https://www.w3schools.com/howto/howto_css_contact_section.asp */
 
+/* contact page main grid container */
 .contact-container{
 
     max-width:1200px;
@@ -753,6 +829,7 @@ section h2{
 
 }
 
+/* left column info card */
 .contact-info{
 
     background:white;
@@ -765,6 +842,7 @@ section h2{
 
 }
 
+/* contact section title color */
 .contact-info h2{
 
     margin-bottom:25px;
@@ -773,6 +851,7 @@ section h2{
 
 }
 
+/* contact item text spacing */
 .contact-info p{
 
     margin-bottom:20px;
@@ -781,6 +860,7 @@ section h2{
 
 }
 
+/* contact profile hyperlink style */
 .contact-info a{
 
     color:#2563eb;
@@ -791,12 +871,21 @@ section h2{
 
 }
 
+/* profile hyperlink hover underline */
 .contact-info a:hover{
 
     text-decoration:underline;
 
 }
 
+/* Code Attribution: */
+/* Title: How To Style Forms with CSS */
+/* Author: W3Schools */
+/* Date: 13 September 2026 */
+/* Version: 1 */
+/* Availability: https://www.w3schools.com/css/css_form.asp */
+
+/* right column contact form card */
 .contact-form{
 
     background:white;
@@ -809,6 +898,7 @@ section h2{
 
 }
 
+/* form title styling */
 .contact-form h2{
 
     margin-bottom:25px;
@@ -817,6 +907,7 @@ section h2{
 
 }
 
+/* field label alignment */
 .contact-form label{
 
     display:block;
@@ -829,6 +920,7 @@ section h2{
 
 }
 
+/* form text input fields styling */
 .contact-form input,
 .contact-form textarea{
 
@@ -850,6 +942,7 @@ section h2{
 
 }
 
+/* field focus blue outline state */
 .contact-form input:focus,
 .contact-form textarea:focus{
 
@@ -859,12 +952,14 @@ section h2{
 
 }
 
+/* vertical text area sizing */
 .contact-form textarea{
 
     resize:vertical;
 
 }
 
+/* form submit button override */
 .contact-form button{
 
     margin-top:25px;
@@ -875,10 +970,14 @@ section h2{
 
 }
 
-/* ============================================
-   FOOTER
-============================================= */
+/* Code Attribution: */
+/* Title: HTML Semantic Elements & Footer Styling */
+/* Author: W3Schools */
+/* Date: 13 September 2026 */
+/* Version: 1 */
+/* Availability: https://www.w3schools.com/html/html5_semantic_elements.asp */
 
+/* footer section background bar */
 footer{
 
     background:#0f172a;
@@ -893,16 +992,21 @@ footer{
 
 }
 
+/* footer copyright text opacity */
 footer p{
 
     opacity:.9;
 
 }
 
-/* ============================================
-   RESPONSIVE DESIGN
-============================================= */
+/* Code Attribution: */
+/* Title: How To Create Responsive Web Pages (Media Queries) */
+/* Author: W3Schools */
+/* Date: 13 September 2026 */
+/* Version: 1 */
+/* Availability: https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
 
+/* tablet media query layout adjustments */
 @media(max-width:992px){
 
     .hero{
@@ -947,6 +1051,7 @@ footer p{
 
 }
 
+/* mobile screen layout adjustments */
 @media(max-width:768px){
 
     nav{
@@ -1007,6 +1112,7 @@ footer p{
 
 }
 
+/* small mobile display adjustments */
 @media(max-width:480px){
 
     .hero-text h1{
@@ -1045,10 +1151,14 @@ footer p{
 
 }
 
-/* ==========================
-   COLLAPSIBLE SKILLS
-========================== */
+/* Code Attribution: */
+/* Title: How To Create Accordions / Collapsible Content with CSS */
+/* Author: W3Schools */
+/* Date: 13 September 2026 */
+/* Version: 1 */
+/* Availability: https://www.w3schools.com/howto/howto_js_accordion.asp */
 
+/* instruction text alignment for skill section */
 .skills-text{
 
     text-align:center;
@@ -1059,6 +1169,7 @@ footer p{
 
 }
 
+/* collapsible accordion outer container box */
 .skill-box{
 
     max-width:700px;
@@ -1075,6 +1186,7 @@ footer p{
 
 }
 
+/* accordion trigger button styles */
 .skill-btn{
 
     width:100%;
@@ -1099,12 +1211,14 @@ footer p{
 
 }
 
+/* trigger button hover dark blue state */
 .skill-btn:hover{
 
     background:#1d4ed8;
 
 }
 
+/* hidden collapsible body text box */
 .skill-content{
 
     display:none;
@@ -1117,6 +1231,7 @@ footer p{
 
 }
 
+/* accordion content paragraph spacing */
 .skill-content p{
 
     margin-bottom:10px;
